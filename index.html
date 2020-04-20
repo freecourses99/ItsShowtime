@@ -1,70 +1,31 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-  <title>ItsShowTime App</title>
-
-  <meta name="title" content="ItsShowTime App">
-  <meta name="description"
-    content="Watch Latest Movies, WebSeries & LiveTv for free. Telegram https://t.me/ItsShowTime">
-  <meta name="keywords"
-    content="ItsShowTime">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="English,Hindi">
-
-  <link rel="shortcut icon" href="https://i.ibb.co/brQJXWg/output-onlinepngtools.png" type="image/png" sizes="16x16"/>
-  <link rel="apple-touch-icon" href="https://i.ibb.co/brQJXWg/output-onlinepngtools.png" type="image/png" sizes="16x16"/>
-  <link rel="icon" href="https://i.ibb.co/brQJXWg/output-onlinepngtools.png" type="image/png" sizes="16x16">
-
-  <style>
-    body {
-      background-color: black;
-      text-align: center;
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    p {
-      display: block;
-      margin-top: 2em;
-      margin-bottom: 2em;
-      margin-left: 4em;
-      margin-right: 4em;
-      font-size: 86%;
-    }
-  </style>
+<meta http-equiv="X-Frame-Options" content="sameorigin">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/players/clap.css"> <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js" type="0051ad5cf191a585a9989ce0-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/clappr.dash-shaka-playback/latest/dash-shaka-playback.js" type="0051ad5cf191a585a9989ce0-text/javascript"></script>
+<script type="0051ad5cf191a585a9989ce0-text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+<script type="0051ad5cf191a585a9989ce0-text/javascript" src="https://cdn.jsdelivr.net/clappr.chromecast-plugin/latest/clappr-chromecast-plugin.min.js"></script>
 </head>
-
 <body>
-  <h1 style="color:SlateBlue;">ItsShowTime App</h1>
-  <h5>Android - Tv - FireTv </h5>
+<div id="player"></div>
+<script type="0051ad5cf191a585a9989ce0-text/javascript">
+          var player = new Clappr.Player(
+            {  
+        source: 'http://jiocdn.fun/mymhdtvworld/hxxx1X.php?c=starplushd&e=.m3u8',
 
-  <img src="https://i.ibb.co/brQJXWg/output-onlinepngtools.png" style="width:200px">
-
-  </br>
-  </br>
-
-  <a href="https://bit.ly/2RFvs8A">
-    <img width="310" height="100" src="https://i.ibb.co/JC18qB5/download.png" />
-  </a>
-  </br>
-  </br>
-  </br>
-
-  <h5 style="color:DodgerBlue;">⁌ LiveTv ⁃ Movies ⁃ WebSeries ⁍</h5>
-
-  <p></p>
-  <p align="justify">Tired of annoying ads interrupting your entertainment? Not anymore!! We at Movies Time welcomes you
-    to the world of hassle free entertainment. Movies time is the most awaited app where you can get access to latest
-    movies, web series and LiveTv on your fingertips "free of cost"
-    Add movies and web series to your watch-list from our largest library including Bollywood, Hollywood, Tollywood,
-    Punjabi and much more on the go on your smartphone.</p>
-</br>
-</body>
-
-<footer>
-  <p><a style="color:#0088CC;" href="https://t.me/ItsShowTime">Telegram</a></p>
-</footer>
-
+               mimeType:"application/vnd.apple.mpegurl",
+  parentId: "#player",
+  autoPlay: true,
+  loop: true,
+    width: '100%',
+  height: '100%',
+  hideMediaControl: true,
+ watermark: "http://mhdtvworld.xyz/wp-content/uploads/2020/01/Trans-1.png",
+watermarkLink: "http://mhdtvworld.xyz",
+position: "top-right",
+              plugins: [DashShakaPlayback,LevelSelector,ChromecastPlugin],
+              parentId: '#player'
+            });
+        </script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="0051ad5cf191a585a9989ce0-|49" defer=""></script></body>
 </html>
